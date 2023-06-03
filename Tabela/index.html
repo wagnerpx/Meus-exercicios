@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 200px;
+            
+        }
+
+        caption {
+            text-transform: uppercase;
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgb(29, 160, 11);
+            color: white;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+            
+        }
+
+        .obj {
+            background-color: rgba(14, 38, 177, 0.822);
+            color: white;
+        }
+
+        .num {
+            text-align: right;
+        }
+
+        .ext {
+            background-color: red;
+        }
+
+        .det {
+            background-color: green;
+            color: white;
+        }
+
+        .det2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>gasto mensal</caption>
+        <thead>
+            <tr>
+                <th scope="row" class="obj">Escola</th>
+                <td class="num">430,00</td>
+                <th scope="row" class="ext">Extra</th>
+                <td class="num">100,00</td>
+            </tr>
+            <tr>
+                <th scope="row" class="obj">Água</th>
+                <td class="num">100,00</td>
+                <th scope="row" class="ext">Extra</th>
+                <td class="num">15,00</td>
+            </tr>
+            <tr>
+                <th scope="row" class="obj">Energia</th>
+                <td class="num">270,00</td>
+                <th scope="row" class="ext">Extra</th>
+                <td class="num">50,00</td>
+            </tr>
+            <tr>
+                <th scope="row" class="obj">Gasolina</th>
+                <td class="num">600,00</td>
+                <th scope="row" class="ext">Extra</th>
+                <td class="num">100,00</td>
+            </tr>
+            <tr>
+                <th scope="row" class="obj">Almoço</th>
+                <td class="num">320,00</td>
+                <th scope="row" class="ext">Extra</th>
+                <td class="num">120,00</td>
+            </tr>
+            <tr>
+                <th scope="row" class="obj">Carro</th>
+                <td class="num">480,00</td>
+                <th scope="row" class="ext">Extra</th>
+                <td class="num">180,00</td>
+            </tr>
+            <tr>
+                <th scope="row" class="obj">Diverso</th>
+                <td class="num">420,00</td>
+                <th scope="row" class="ext">Extra</th>
+                <td class="num">220,00</td>
+            </tr>
+            <tr>
+                <th scope="row" class="obj">Cartão</th>
+                <td class="num">780,00</td>
+                <th scope="row" class="ext">Extra</th>
+                <td class="num">180,00</td>
+            </tr>
+            <tr>
+                <th scope="row" class="obj">Total</th>
+                <td class="obj num">3.400,00</td>
+                <th scope="row" class="ext">Total</th>
+                <td class="ext num">965,00</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="det">Escola</th>
+                <th class="det">Água</th>
+                <th class="det">Energia</th>
+                <th class="det">Gasolina</th>
+            </tr>
+            <tr>
+                <td class="det2">passeio</td>
+                <td class="det2"></td>
+                <td class="det2">furadeira</td>
+                <td class="det2">final semana</td>
+            </tr>
+            <tr>
+                <td class="det2">balaio</td>
+                <td class="det2"></td>
+                <td class="det2"></td>
+                <td class="det2"></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th class="det">Almoço</th>
+                <th class="det">Carro</th>
+                <th class="det">Diverso</th>
+                <th class="det">Cartão</th>
+            </tr>
+            <tr>
+                <td class="det2">lagoa</td>
+                <td class="det2">lanche</td>
+                <td class="det2">dente</td>
+                <td class="det2">furo pneu</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
