@@ -6,38 +6,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Praticando largura</title>
     <style>
-        div.quadrado {
-            display: inline-block;
-            background-color: lightgrey;
-            border-radius: 10px;
-            border: 2px solid black;
-            width: 800px;
-            height: 300px;
+
+        * {
+            margin: 0px;
+            padding: 0px;
         }
 
-        div#q1 {
-            background-image: url('imagens/img-1.jpg');
-            background-position: center;
-            background-attachment: fixed;
-        }
-
-        div#q2 {
+        body {
             background-color: green;
         }
 
+        div.quadrado { 
+            background-color: lightgrey;
+            border: 2px solid rgba(0, 0, 0, 0.185);
+            height: 100vh;
+        }
+
+        div h1 {
+            font-size: 2em;
+            background-color: darkorange;
+            text-align: center;
+            padding: 30px;
+            color: white;
+            text-transform: uppercase;
+        }    
+        
+        li {
+            font-size: 1.2em;
+            font-weight: bold;
+            list-style-position: inside;
+            text-transform: uppercase;
+            font-style: italic;
+            
+        }
+
+        div#q1 {
+            background: white url('imagens/turma2000.jpg') center no-repeat fixed;
+            background-size: cover;
+        }
+
+        div#q2 {
+            margin: auto;
+            height: 500px;
+            width: 800px;
+            background-color: white;
+            columns: 2;
+            padding: 20px 30px;
+            
+        }
+
         div#q3 {
-            background-image: url('imagens/img-1.jpg');
-            background-position: center;
-            background-attachment: fixed;
+            background: white url('imagens/turma2000.jpg') center no-repeat fixed;
+            background-size: cover;
         }
     </style>
 </head>
 <body>
     <div class="quadrado" id="q1">
-
+        <h1>galeria</h1>
     </div>
     <div class="quadrado" id="q2">
-
+        <ol>
+            <li>Amorim</li>
+            <li>Frutuoso</li>
+            <li>Anacleto</li>
+            <li>Januário</li>
+            <li>Wilton</li>
+            <li>Teixeira</li>
+            <li>Amilton</li>
+            <li>Gabriel</li>
+            <li>Miguel</li>
+            <li>Modesto</li>
+            <li>Tavares</li>
+            <li>Cajueiro</li>
+            <li>Costa Neto</li>
+            <li>Dantas</li>
+            <li>G Dias</li>
+            <li>Gonçalves</li>
+            <li>Cleberson</li>
+            <li>Claudio</li>
+            <li>Heleno</li>
+            <li>Cruz</li>
+            <li>Amorim</li>
+            <li>Frutuoso</li>
+            <li>Anacleto</li>
+            <li>Januário</li>
+            <li>Wilton</li>
+            <li>Teixeira</li>
+            <li>Amilton</li>
+            <li>Gabriel</li>
+            <li>Miguel</li>
+            <li>Modesto</li>
+            <li>Tavares</li>
+            <li>Cajueiro</li>
+            <li>Costa Neto</li>
+            <li>Dantas</li>
+            <li>G Dias</li>
+            <li>Gonçalves</li>
+            <li>Cleberson</li>
+            <li>Claudio</li>
+            <li>Heleno</li>
+            <li>Cruz</li>
+        </ol>
     </div>
     <div class="quadrado" id="q3">
 
